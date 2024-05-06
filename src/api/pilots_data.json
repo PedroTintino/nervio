@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Shinji Ikari",
+        "race": "Human",
+        "affiliation": "NERV",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/shinji_ikari.png"
+    },
+    {
+        "id": 2,
+        "title": "Rei Ayanami",
+        "race": "Clone",
+        "affiliation": "NERV",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/rei_ayanami.png"
+    },
+    {
+        "id": 3,
+        "title": "Asuka Langley Soryu",
+        "race": "Human",
+        "affiliation": "NERV",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/auska.png"
+    },
+    {
+        "id": 4,
+        "title": "Kaworu Nagisa",
+        "race": "Angel",
+        "affiliation": "NERV, SEELE, angel",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/kaoru_nagisa.png"
+    },
+    {
+        "id": 5,
+        "title": "Toji Suzuhara",
+        "race": "Human",
+        "affiliation": "NERV",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/touji_suzuhara.png"
+    },
+    {
+        "id": 6,
+        "title": "Mari Makinami Illustrious",
+        "race": "Human",
+        "affiliation": "IPEA, WILLE",
+        "imageUrl": ""
+    },
+    {
+        "id": 7,
+        "title": "Gendou Ikari",
+        "race": "Human",
+        "affiliation": "NERV",
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/gendou_ikari.png"
+    }
+]
