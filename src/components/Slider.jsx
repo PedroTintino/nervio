@@ -16,7 +16,7 @@ const ImageSlider = ({ images, interval = 3000 }) => {
   }, [currentImageIndex]); 
 
   return (
-    <div className="relative h-[350px] rounded overflow-hidden">
+    <div className=" rounded overflow-hidden">
       {images.map((imageUrl, index) => (
         <img
           key={index}

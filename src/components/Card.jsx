@@ -1,4 +1,4 @@
-function Card({ imageUrl, title, race, affiliation }){
+function Card({ imageUrl, title, race, affiliation, link }){
     return(
         <div className="bg-slate-200 h-32 w-full flex rounded font-custom cursor-pointer text-gray-950 transition-all ease-in hover:bg-slate-300">
             <div className="image h-32 w-32 mr-4">

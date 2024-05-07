@@ -22,7 +22,7 @@ function Intro() {
             <Button color="secondary" variant="contained">Draw Info</Button>
         </div>
       </div>
-      <div className="carouselElement w-[600px] ">
+      <div className="carouselElement w-[600px]">
         <ImageSlider images={images} interval={4000} />
       </div>
     </div>

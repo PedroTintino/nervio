@@ -9,7 +9,7 @@ function Navbar(){
             <img src={chibiImg} alt="a chibi image." width={120} height={100}/>
             <span className='text-white text-2xl font-medium'>Nerv: Project</span>
             <ul className="flex gap-3">
-                <li className="text-gray-600 transition-all ease hover:text-slate-100" onClick={() => navigate('/pilots')}>Pilots</li>
+                <li className="text-gray-600 transition-all ease cursor-pointer hover:text-slate-100" onClick={() => navigate('/pilots')}>Pilots</li>
                 <li className="text-gray-600 transition-all ease hover:text-slate-100"><a href="#">Eva's Projects</a></li>
                 <li className="text-gray-600 transition-all ease hover:text-slate-100"><a href="#">About us</a></li>
             </ul>
