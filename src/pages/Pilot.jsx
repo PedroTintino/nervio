@@ -1,15 +1,10 @@
 import ImageSlider from "../components/Slider";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function Pilot({ data }) {
   const { id } = useParams();
   const pilot = data.find((item) => item.id === parseInt(id, 10));
-  const images = [
-    "https://i.pinimg.com/564x/1e/63/cd/1e63cd4b704c353b8d014f8660a31f65.jpg",
-    "https://i.pinimg.com/originals/11/a8/c1/11a8c14bb717b86f7a0841111b1d8450.gif",
-    "https://i.pinimg.com/originals/bf/4e/5e/bf4e5e73a2856f001677c3761392e245.jpg",
-    "https://i.pinimg.com/originals/90/66/30/906630ecbfa6e69128d5ea98892955ee.gif",
-  ];
+  const images = pilot.gallery;
 
   if (!pilot) {
     return <div>Pilot not found!</div>;
@@ -53,6 +48,9 @@ function Pilot({ data }) {
           <p className="">{pilot.age}</p>
           <p className="font-semibold">Affiliation: </p>
           <p className="">{pilot.affiliation}</p>
+          <Link to={'/eva'}>
+            <p className="text-blue-500 hover:text-blue-900 text-xl">See the pilot's EVA here</p>
+          </Link>
           </div>
         </div>
       </div>

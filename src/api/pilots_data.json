@@ -25,7 +25,11 @@
         "weight":"46kg",
         "blood": "A",
         "rank": "Second Child",
-        "age": "14 (born December 04, 2001 (Sagittarius)[1])"
+        "age": "14 (born December 04, 2001 (Sagittarius)[1])",
+        "gallery": [ "https://i.pinimg.com/564x/1e/63/cd/1e63cd4b704c353b8d014f8660a31f65.jpg",
+        "https://i.pinimg.com/originals/11/a8/c1/11a8c14bb717b86f7a0841111b1d8450.gif",
+        "https://i.pinimg.com/originals/bf/4e/5e/bf4e5e73a2856f001677c3761392e245.jpg",
+        "https://i.pinimg.com/originals/90/66/30/906630ecbfa6e69128d5ea98892955ee.gif"]
     },
     {
         "id": 4,
