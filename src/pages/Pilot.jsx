@@ -6,7 +6,7 @@ function Pilot({ data }) {
   const pilot = data.find((item) => item.id === parseInt(id, 10));
   const images = pilot.gallery;
 
-  if (!pilot) {
+  if (!pilot || !images) {
     return <div>Pilot not found!</div>;
   }
 
@@ -16,7 +16,7 @@ function Pilot({ data }) {
         {pilot.title}
       </h1>
       <div className="backgroundImg absolute -bottom-10 left-10">
-        <img src={pilot.backgroundImage} alt="" height={350} width={350} />
+        <img className="max-h-[550px] w-full" src={pilot.backgroundImage} />
       </div>
       <div className="textContent w-[60%] float-right p-2 grid gap-1 grid-cols-2 grid-rows-2 h-[80%]">
         <div className="container flex w-full max-h-full row-span-2 justify-between">

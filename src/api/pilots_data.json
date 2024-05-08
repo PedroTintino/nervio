@@ -4,7 +4,17 @@
         "title": "Shinji Ikari",
         "race": "Human",
         "affiliation": "NERV",
-        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/shinji_ikari.png"
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/shinji_ikari.png",
+        "backgroundImage": "https://i.pinimg.com/originals/c2/0e/4d/c20e4d6bf3f0bcf23bfef7b8f8f5ccb6.png",
+        "description":"Shinji initially shows a passive and laid-back personality, inheriting such traits from his relaxed life with his sensei. When he is told to pilot Unit-01, he denies, not wanting to do it. Though Shinji denies it, he yearns for praise, and he eventually begins to pilot Unit-01 to gain the approval and love from his father. He also continually tells himself 'I mustn't run away!', further demonstrating his need to move forward and let go of the past. Shinji shows a great fear of emotional pain and of being hated or left behind, likely due to his perception of being abandoned in his youth and subsequently blaming himself for not being good enough to make his father stick around. In general, Shinji is shown to be introverted and disconnected from physical reality due to having little to no meaningful contact with others. In social party situations, he is quite uncomfortable, and he often has difficulty controlling his emotions around others due to his hard time letting go of the past. Due to his high nostalgia and fragile emotional state, Shinji chooses to shut out the world, as evidenced by the headphones he wears rather often, plugged into an SDAT music player. Through all this, Shinji is also aware of his own faults, has a detailed memory of the past, and generally is outwardly gentle. He is the only one who tries to find a reason to fight the Angels, and sometimes his justification for fleeing from piloting is to avoid hurting others.",
+        "weight":"46kg",
+        "blood": "A",
+        "rank": "Third Child",
+        "age": "14 (born 06 June 2001 (Gemini)[1])",
+        "gallery": [ "https://i.pinimg.com/originals/34/14/8d/34148d4d557242bd293380aa2c687866.gif",
+        "https://i.pinimg.com/originals/fc/3d/e4/fc3de484e097a6ce688a2b922f2068bd.gif",
+        "https://c.tenor.com/bUbaw5Rct58AAAAd/tenor.gif",
+        "https://i.pinimg.com/originals/45/eb/de/45ebde2cd822a4601595df001bbc3f11.gif"]
     },
     {
         "id": 2,
@@ -36,7 +46,17 @@
         "title": "Kaworu Nagisa",
         "race": "Angel",
         "affiliation": "NERV, SEELE, angel",
-        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/kaoru_nagisa.png"
+        "imageUrl": "https://images.freeimages.com/fic/images/icons/1373/if_evangelion/32/kaoru_nagisa.png",
+        "backgroundImage": "https://i.pinimg.com/originals/b8/a6/f9/b8a6f98d64a519d9e57bc7a903d3d7e9.png",
+        "description": "Kaworu is both the 17th Angel and the Fifth Child. Although classified as an Angel, Kaworu is similar to Rei Ayanami in being a Seed of Life that inhabits a human body. Despite his human form, Kaworu does not seem to consider himself to be human, referring to humans as 'the Lilin' in differentiation from himself. Kaworu appears humming the fourth movement of Beethoven's Ninth Symphony, the same music that plays during his descent into Terminal Dogma, and so serves as a leitmotif for his character. The Ninth Symphony itself incorporates an adaptation of Friedrich Schiller's 'Ode to Joy' (Ode an die Freude), a poem dedicated to the unity of all men under God. Kaworu's opening of the doors to Terminal Dogma synchronizes with the line 'Und der Cherub steht vor Gott' - 'And the Cherub (Angel) stands before God'. Kaworu appears comfortable in his identity (far more than Rei) and also warmer and more emotionally open. However, he does show a detachment from human protocols and shares Rei's tendency to speak in universal rather than personal terms. As the vessel for Adam's soul, Kaworu's designation is 'Tabris' (Arabic: تبريس), the 17th and final Angel, considered the Angel of free will. Although sent by SEELE for a specific purpose, he also has his own agenda. Kaworu has a Lilin body with no visible physical difference from a regular human except for very pale skin, light grey hair, and red irises. He wears human clothes consisting of a white shirt, high-waisted trousers, and white high-top sneakers. Although presumably composed of the same 'particle-wave matter' as Rei and the Angels, it is uncertain if he possesses a core and S² Engine. Kaworu is the only Angel to infiltrate Terminal Dogma. His human body is a vessel for the salvaged soul of Adam itself, wielding all the power that comes with it. His A.T. Field is described by the Magi as the strongest encountered until surpassed by Rei's. Kaworu uses it for levitation, to control Unit-02, as a massive barrier preventing wave transmissions to the Command Center, and evidently to bypass the LCL Plant's locking mechanism. By being both the First Angel (Adam) and the Seventeenth and final Angel, he is both the first and the last of his kind. Kaworu is 'born from Adam' and describes Adam as the 'Mother of us all', making him his own mother as well as of all Angels.",
+        "weight":"50kg",
+        "blood": "Blue",
+        "rank": "Fifth Child 17th Angel (NGE)",
+        "age": "15 (born September 13, 2000 (Virgo)[1])",
+        "gallery": [ "https://i.pinimg.com/originals/32/60/64/326064b54e6886cb42b48a93394d15bf.jpg",
+        "https://i.pinimg.com/originals/64/99/53/64995370265581c2765cbbea33a820f0.gif",
+        "https://i.pinimg.com/originals/11/de/a1/11dea1b6300a7d0fc313aff6e0174306.jpg",
+        "https://i.pinimg.com/originals/79/bf/57/79bf578bd5fd3b9e2223effea10b5dfd.gif"]
     },
     {
         "id": 5,
