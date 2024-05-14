@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Intro from './pages/Intro'
 import Navbar from './components/Navbar'
 import Pilots from './pages/Pilots'
@@ -12,7 +12,7 @@ function App() {
       <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={ <Intro /> }></Route>
+        <Route path='/' element={ <Intro data={data} /> }></Route>
         <Route path='/pilots' element={ <Pilots /> }></Route>
         <Route path="/pilot/:id" element={<Pilot data={data} />} />
       </Routes>

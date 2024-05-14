@@ -1,12 +1,20 @@
 import { Button } from "@mui/material";
 import ImageSlider from "../components/Slider";
+import { useNavigate } from "react-router-dom";
+import data from '../api/pilots_data.json';
 
-function Intro() {
+function Intro({ onHandleRedirect }) {
     const images = [
         "https://i.pinimg.com/originals/68/b5/ce/68b5cecc823ee8386fad0f4c2d1e66ce.png",
         "https://images5.alphacoders.com/135/1353199.png",
         "https://i.pinimg.com/originals/d8/cf/d4/d8cfd44dab71e5b9c1f438c5c6c7dd2c.jpg"
     ]
+    const navigate = useNavigate();
+
+  const handleRandomRedirect = () =>{
+    const randomPilot = data[Math.floor(Math.random() * 4)];
+    navigate(`/pilot/${randomPilot.id}`)
+  }
   return (
     <div className="bg-slate-950 text-slate-50 p-4 flex gap-6 items-center justify-center w-full h-screen">
       <div className="textIntro max-w-[450px]">
@@ -19,7 +27,7 @@ function Intro() {
           define Evangelion's unique narrative.
         </p>
         <div className="flex justify-center mt-3">
-            <Button color="secondary" variant="contained">Draw Info</Button>
+            <Button color="secondary" onClick={handleRandomRedirect} variant="contained">Draw Info</Button>
         </div>
       </div>
       <div className="carouselElement relative w-[580px] h-[300px]">
